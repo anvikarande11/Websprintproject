@@ -1,0 +1,294 @@
+
+
+.conc{
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+}
+.events{
+width: 100%;
+    background: linear-gradient(135deg, #667eea 0%, #212b9b 100%);
+    box-shadow: #de0985;
+    padding: 15px 30px;
+    border-radius: 18px;
+    font-size: 30px;
+    text-align: center;
+    transition: transform 0.4s ease;
+}
+.events:hover img{
+  color: #de0985;
+}
+
+p{
+  font-size: 32px;
+  font-family:'Times New Roman', Times, serif;
+  text-align: justify;
+}
+.card-button{
+  box-shadow: #de0985;
+    padding: 15px 30px;
+    border-radius: 18px;
+    position: relative;
+    left: 200px;
+}
+.card-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    padding: 20px 0;
+    
+    
+}
+
+.stat {
+    text-align: center;
+    margin-top: 10px;
+    position:relative;
+    bottom: 5px;
+    font-size: 40px;
+    border-top: #aaa5b5 solid;
+    border-bottom: #adaab5 solid;
+}
+
+
+.stat-label {
+    display: block;
+    font-size: 22px;
+    color: #4b6f9c;
+    
+    font-family: 'Press Start 2P';
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    
+}
+.card-title{
+   width: 100%;
+    background: linear-gradient(135deg, #6b7dce 0%, #1924c2 100%);
+    box-shadow: #de0985;
+    padding: 15px 30px;
+    border-radius: 18px;
+    font-size: 30px;
+    text-align: center;
+
+
+}
+body {
+    background: linear-gradient(135deg,#e8e8ee,);
+    min-height: 100vh;
+    padding: 40px 20px;
+    text-align: center;
+    font-size: small;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column; /* <— stack elements vertically */
+    align-items: center;    /* <— center horizontally only */
+}
+
+.college{
+text-align: center;
+border: rgba(0, 0, 0, 0.15) solid 3px;
+font-weight: bolder;
+}
+p{
+    position: relative;
+    top: 30px;
+    
+}
+h1{
+    font-size:75px;
+    font-weight: 500;
+    color: #150987;
+    font-weight: bolder;
+    position: relative;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+h4{
+  font-size: 20px;
+}
+.container1{
+     font-size: 40px;
+  
+     /* centers all circles horizontally */
+    align-items: center;
+    gap: 600px;      
+    flex-shrink: 0;        /* prevent shrinking */
+    width: max-content;         /* space between circles */
+
+}
+.container2{
+    font-size: 40px;
+   flex-shrink: 0;        /* prevent shrinking */
+    width: max-content;
+    align-items: center;
+    gap: 600px;               /* space between circles */
+    position: relative;
+    top: 30px;
+}
+.frame-grid{
+  position: relative;
+  align-items: center;
+}
+
+img{
+    border: 2px ;
+    border-radius: 2px;
+
+    position:relative;
+    top: 10px;
+}
+.event-frame {
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.event-frame:hover {
+  transform: scale(1.05); /* Makes the frame "pop" when hovered */
+}
+
+.frame-border {
+  padding: 15px;
+  background: #ffffff;
+  border: 10px solid snow;
+  box-shadow: 0 10px 20px rgba(15, 45, 57, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.frame-border:hover {
+  transform: translateY(-12px) scale(1.03);
+  box-shadow: 0 25px 40px rgba(59, 125, 192, 0.2);
+}
+
+#Hackathons {
+  display: flex;               /* KEY */
+  flex-direction: row;         /* stack in row */
+  gap: 25px;                   /* space between images */
+  width: 100%;
+  overflow-x: auto;            /* enable horizontal scroll */
+  padding: 20px 0;
+  scrollbar-width: none;       /* Firefox hide scrollbar */
+}
+
+#Hackathons::-webkit-scrollbar {
+  display: none;               /* Chrome hide scrollbar */
+}
+
+#Hackathons img {
+  width: 260px;                /* FIXED WIDTH */
+  height: 180px;
+  object-fit: cover;
+  flex-shrink: 0;              /* PREVENT shrinking */
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+/* Optional hover zoom */
+#Hackathons img:hover {
+  transform: scale(1.05);
+}
+
+.poster-container1 {
+  width: 220px;
+  height: 250px;      /* visible rectangle height */
+  overflow: hidden;   /* enables cropping */
+}
+
+.poster-container img {
+  width: 130%;
+  object-fit: cover;
+  object-position: centre 70%; /* crops TOP */
+  display: block;
+}
+.poster-container {
+  width: 300px;
+  height: 340px; 
+  gap: 30px;     /* visible rectangle height */
+  overflow: hidden;   /* enables cropping */
+}
+
+.poster-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: centre 70%; /* crops TOP */
+  display: block;
+  margin-bottom: 30px;
+  transition: transform 0.4s ease;
+}
+
+
+.event-label {
+  text-align: center;
+
+  font-family: 'Playfair Display', serif; /* Or any cursive font similar to your image */
+  color: #4a3728;
+  margin-top: 15px;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+.event-box {
+      display: inline-block;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-box:hover {
+  transform: translateY(-12px) scale(1.03);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.15);
+}
+.scroll-container {
+    overflow-x: hidden;           /* hide default scrollbar */
+    display: flex;
+    justify-content: center;      /* center the inner container initially */
+    width: 100%;
+    padding: 20px 0;
+    position: relative;
+}
+
+/* Animate scroll left and back on hover */
+.scroll-container:hover .container1,
+.scroll-container:hover .container2 {
+    animation: scroll-hover 10s linear infinite;
+}
+
+@keyframes scroll-hover {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-15%); }  /* adjust % based on content */
+    100% { transform: translateX(0); }
+}
+
+
+/* Keep boxes from shrinking */
+.frame-grid {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;  /* center each box in its own frame */
+  align-items: center;
+}
+/* Horizontal scrolling setup */
+.scroll-container{
+  
+  width: 100%;
+  white-space: nowrap;
+}
+
+/* Make inner containers grow */
+.container1,
+.container2 {
+  display: flex;
+  gap: 24px;
+  width: max-content;   /* IMPORTANT */
+}
+
+/* Each event card must NOT shrink */
+.frame-grid {
+  flex: 0 0 260px;      /* <-- THIS IS THE KEY */
+}
+
+/* Ensure poster fills card */
+.poster-container img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  display: block;
+}
