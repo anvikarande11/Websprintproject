@@ -1,29 +1,29 @@
-This project is a modern and interactive University Website designed to showcase academic excellence and campus life.
+University Website Project
+1. Project Overview
 
-It presents key information about the university, including its vision, achievements, and student activities.
+This project is a modern and interactive University Website designed to showcase the institution’s vision, academic excellence, and campus activities.
+The website highlights key sections such as university introduction, latest events, hackathons, workshops, and student activities.
+It focuses on clean design, smooth animations, and an engaging user experience while maintaining a professional academic look.
+The project demonstrates front-end development skills with emphasis on layout, responsiveness, and visual consistency.
 
-The website includes sections for latest events, hackathons, workshops, and cultural programs.
+2. Tech Stack Used
 
-The design focuses on clean layout, smooth animations, and an engaging user experience.
+HTML5 – for structuring the content of the website
 
-The project demonstrates strong front-end design and layout skills.
+CSS3 – for styling, layouts, animations, and responsiveness
 
-The website is built using HTML5 for structure and CSS3 for styling.
+Flexbox – for alignment and responsive design
 
-Flexbox is used for responsive alignment and layout management.
+Google Fonts – for enhanced typography
 
-CSS transitions and hover effects enhance interactivity.
+CSS Transitions & Animations – for hover effects and smooth interactions
 
-Google Fonts are used to improve typography and visual appeal.
+3. How to Run the Project
 
-To run the project, download or clone the repository to your system.
+Download or clone the project repository to your local system.
 
-Ensure all project files and images are placed in the correct folders.
+Ensure all files (index.html, style.css, and image assets) are in the same folder structure.
 
-Open the index.html file in any modern web browser.
+Open the index.html file in any modern web browser (Chrome, Edge, or Firefox).
 
-No additional installations or dependencies are required.
-
-The project runs completely on the client side.
-
-This website can be extended in the future with JavaScript and backend features.
+The website will load locally without requiring any additional setup or dependencies.
