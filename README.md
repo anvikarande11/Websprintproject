@@ -1,19 +1,29 @@
-This project is a modern and responsive University Website designed to represent academic excellence and campus life.
+This project is a modern and interactive University Website designed to showcase academic excellence and campus life.
 
-The website focuses on a clean layout, smooth animations, and user-friendly navigation.
+It presents key information about the university, including its vision, achievements, and student activities.
 
-It showcases key sections such as university introduction, achievements, events, and hackathons.
+The website includes sections for latest events, hackathons, workshops, and cultural programs.
 
-Interactive event cards and horizontal scrolling enhance user engagement.
+The design focuses on clean layout, smooth animations, and an engaging user experience.
 
-HTML and CSS are used to structure and style the entire website.
+The project demonstrates strong front-end design and layout skills.
 
-Flexbox is implemented for efficient alignment and responsive layouts.
+The website is built using HTML5 for structure and CSS3 for styling.
 
-Hover effects and transitions are added to improve visual appeal.
+Flexbox is used for responsive alignment and layout management.
 
-The design emphasizes readability, consistency, and visual hierarchy.
+CSS transitions and hover effects enhance interactivity.
 
-The project demonstrates front-end development and UI design skills.
+Google Fonts are used to improve typography and visual appeal.
 
-This website can serve as a foundation for future enhancements and dynamic features.
+To run the project, download or clone the repository to your system.
+
+Ensure all project files and images are placed in the correct folders.
+
+Open the index.html file in any modern web browser.
+
+No additional installations or dependencies are required.
+
+The project runs completely on the client side.
+
+This website can be extended in the future with JavaScript and backend features.
